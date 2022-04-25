@@ -3,6 +3,7 @@ package com.vehicle;
 public class Vehicle {
     private int maxSpeed;
 
+
     private double maxWeight;
     private int enginePower;
     private float engineVolume;
@@ -67,7 +68,9 @@ public class Vehicle {
         return brand;
     }
 
-    public String getMark() { return mark; }
+    public String getMark() {
+        return mark;
+    }
 
     public String getColor() {
         return color;
